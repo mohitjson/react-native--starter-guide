@@ -4,14 +4,18 @@ import { createStackNavigator } from 'react-navigation-stack'; /*   stack naviga
 import HomeScreen from "./src/screens/HomeScreen";
 import ComponentScreen from './src/screens/ComponentScreen';
 import FlatList1 from './src/screens/FlatList1';
+import CounterScreen from './src/screens/CounterScreen';
 import ImageScreen from './src/screens/ImageScreen';
+import ColorScreen from './src/screens/ColorScreen';
 
 const navigator = createStackNavigator(   
   {
     Home: HomeScreen,
     Components:ComponentScreen,
     Flatlist:FlatList1,
-    Image:ImageScreen
+    Image:ImageScreen,
+    counter:CounterScreen,
+    color:ColorScreen,
   },
   {
     initialRouteName: "Home",
