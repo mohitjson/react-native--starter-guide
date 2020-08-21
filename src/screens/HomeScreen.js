@@ -52,6 +52,24 @@ const HomeScreen = ({ navigation }) => {
         title ='go to Box screen'
       
        />
+      <Button 
+        onPress={() => navigation.navigate('Reduce')}
+        title ='go to Reducer screen'
+      
+       />
+      
+      <Button 
+        onPress={() => navigation.navigate('counter2')}
+        title ='go to counter two'
+      
+       />
+      
+      <Button 
+        onPress={() => navigation.navigate('Multi')}
+        title ='go to Multi reducer'
+      
+       />
+      
      
     </View>
     
